@@ -1,0 +1,25 @@
+// abstracts (variables, funciones, mixins, placeholders)
+
+@import "abstracts/variables";
+
+// vendor (bootstrap, jQuery UI)
+
+@import "vendor/bootstrap4.6/bootstrap.scss";
+
+// base (reset/normalize, tipografia)
+
+@import "base/reset";
+
+// components (botones, carrousel, cover, dropdown)
+
+// layout (navegacion, grilla, header, footer, sidebar, formularios)
+
+@import "layout/header";
+@import "layout/footer";
+
+// pages (home specific styles, contact specific styles)
+
+@import "pages/post"
+
+// themes (default theme, admin theme)
+

@@ -1,0 +1,11 @@
+.post {
+    padding: 10px 5%;
+
+    &__fecha {
+        font-weight: 600;
+    }
+
+    &__cuerpo {
+        line-height: 2;
+    }
+}
