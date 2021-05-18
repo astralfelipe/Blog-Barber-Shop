@@ -1,0 +1,15 @@
+.pagination {
+    background-color: $platinum;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.page-link--anterior {
+    border-radius: 25px 0px 0px 25px !important;
+}
+
+.page-link--siguiente {
+    border-radius: 0px 25px 25px 0px !important;
+}

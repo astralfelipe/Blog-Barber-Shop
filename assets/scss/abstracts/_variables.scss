@@ -1,3 +1,6 @@
+//link fuentes
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;900&display=swap');
 //colors
 
 $white: #fff;
@@ -9,3 +12,23 @@ $spanish-pink: #ECBCBA;
 $eirie-black: #121619;
 $raisin-black: #222323;
 $niquel: #6C6E70;
+
+//fuentes
+$roboto: 'Roboto', sans-serif;
+$roboto-light: 300;
+$roboto-regular: 400;
+$roboto-bold: 900;
+$playfair: 'Playfair Display', sans-serif;
+$playfair-light: 300;
+$playfair-regular: 400;
+$playfair-bold: 900;
+$font-type-italic: italic;
+
+//tamaño fuentes
+
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+

@@ -1,0 +1,17 @@
+.boton {
+    padding: 5px 5%;
+
+    &__cc {
+        text-decoration: none;
+        padding: 3px;
+        font-family: $primary-font;
+        font-size: $small;
+        font-weight: $primary-font-light;
+        background-color: $light-gray;
+        border-radius: 30px;
+        border: 2px $niquel;
+
+    }
+
+   
+}

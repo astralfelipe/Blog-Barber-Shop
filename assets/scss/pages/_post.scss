@@ -2,10 +2,17 @@
     padding: 10px 5%;
 
     &__fecha {
-        font-weight: 600;
+        color: $eirie-black;
+        font-size: $medium;
+        font-family: $primary-font;
+        font-weight: $primary-font-bold;
     }
 
     &__cuerpo {
+        color: $eirie-black;
+        font-size: $medium;
+        font-family: $primary-font;
+        font-weight: $primary-font-regular;
         line-height: 2;
     }
 }

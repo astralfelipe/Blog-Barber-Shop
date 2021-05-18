@@ -1,0 +1,33 @@
+.author-section {
+
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    
+
+
+    &__img {
+        border-radius: 50%;
+        width: 200px;
+    }
+
+
+
+    &__name {
+        color: $raisin-black;
+        font-size: $large;
+        font-family: $secondary-font;
+        font-weight: $secondary-font-bold;
+        font-style: $font-type-italic;
+        text-align: center;
+    }
+
+    &__review {
+        color: $eirie-black;
+        font-size: $medium;
+        font-family: $primary-font;
+        font-weight: $secondary-font-regular;
+        text-align: left;
+
+    }
+}

@@ -1,5 +1,20 @@
 .header {
-    height: 325px;
-    background-color: $spanish-pink;
-    padding-top: 125px;
+    background-image: url("../images/post-image.jpg");
+    height: 925px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    &__titulo {
+        padding-top: 450px;
+        text-align: center;
+        color: $white;
+        font-size: $xx-large;
+        font-family: $secondary-font;
+        font-weight: $secondary-font-bold;
+        font-style: $font-type-italic;
+
+
+    }
+    
 }

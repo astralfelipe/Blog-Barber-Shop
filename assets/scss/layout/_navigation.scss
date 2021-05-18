@@ -1,0 +1,10 @@
+.navbar {
+    background: $raisin-black;
+
+    &__list {
+        color: $white;
+        font-size: $small;
+        font-family: $primary-font;
+        font-weight: $primary-font-regular;
+    }
+}

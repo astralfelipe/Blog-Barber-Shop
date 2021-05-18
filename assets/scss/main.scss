@@ -9,17 +9,22 @@
 // base (reset/normalize, tipografia)
 
 @import "base/reset";
+@import "base/tipografia";
 
 // components (botones, carrousel, cover, dropdown)
+@import "components/botones";
+@import "components/paginacion";
+
 
 // layout (navegacion, grilla, header, footer, sidebar, formularios)
 
 @import "layout/header";
 @import "layout/footer";
-
+@import "layout/navigation";
 // pages (home specific styles, contact specific styles)
 
-@import "pages/post"
+@import "pages/post";
+@import "pages/author-section";
 
 // themes (default theme, admin theme)
 
