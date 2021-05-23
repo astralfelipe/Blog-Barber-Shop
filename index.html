@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barber Shop</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -63,7 +64,11 @@
   <main class="container-fluid">
     <div class="row">
       <header class="col-sm-12 header">
-        <h1 class="header__titulo">5 formas de cuidar tu corte de cabello</p>
+        <h1 class="header__titulo">5 formas de cuidar <br> tu corte de cabello</p>
+          <div class="header__icon">
+            <i class="row fas fa-chevron-down header__arrow"></i><br>
+            <i class="row fas fa-chevron-down header__arrow"></i>
+          </div>
       </header>
 
       <section class="col-sm-12 post">
@@ -96,10 +101,14 @@
           cumque
           ipsam amet sit veritatis rem?</p>
 
-        <boton class="col-md-3 boton">
-          <button type="button" class="boton__cc btn btn-secondary btn-lg">Compartir</button>
-          <button type="button" class="boton__cc btn btn-secondary btn-lg">Comentar en twitter</button>
-        </boton>
+        </section>
+
+          <section class="container">
+
+        <div class="row boton">
+          <button type="button" class=" boton__cc btn btn-success bg-secondary border-0 button__radius-50 mr-2">Compartir</button>
+          <button type="button" class="boton__cc btn btn-success bg-secondary border-0 button__radius-50">Comentar en twitter</button>
+        </div>
 
       </section>
 
@@ -112,15 +121,15 @@
   <section class="container">
     <div class="row justify-content-center">
       <div class="author-section">
-        <div class="author-section__item col-md-3">
+        <div class="author-section__item col-12 col-md-2">
           <img class="author-section__img" src="assets/images/naomi-thai.png" alt="...">
         </div>
-        <div class="author-section__item col-md-3">
+        <div class="author-section__item  col-12 col-md-4">
           <h6 class="author-section__name">Naomi Thai</h6>
-          <a class="author-section__link author-section__link--style" href="...">Nao depelos.com</a>
+          <p class="author-section__link author-section__link--style">@naothaidepelos.com</p>
         </div>
 
-        <div class="author-section__item col-md-6">
+        <div class="author-section__item col-12 col-md-6">
           <p class="author-section__review">Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatum officiis inventore cum enim totam tenetur, aliquid quas, sint facilis, doloremque a est alias
             illum

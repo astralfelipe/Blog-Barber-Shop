@@ -16,5 +16,18 @@
 
 
     }
+
+    &__icon {
+        position: absolute !important;
+        bottom: 0%;
+        left: 50%;
+        display: block;
+    }
+
+    &__arrow {
+        width: 4 rem;
+    }
     
+
+
 }
